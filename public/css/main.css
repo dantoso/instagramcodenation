@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(245, 245, 245);
+  }
+  .header__ul {
+	display: flex;
+	justify-content: space-between;
+	padding: 2px 8px;
+	margin: 0px;
+	margin-bottom: 10px;
+	font-family: helvetica;
+	background-color: rgb(255, 255, 255);
+   
+	border-bottom: 1px solid rgb(231, 225, 225);
+  }
+  i {
+	margin: 10px;
+  }
+  .header__li,
+  img {
+	display: flex;
+	width: 120px;
+  }
+  .insta__main {
+	display: flex;
+	justify-content: flex-start;
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+  }
+  .insta_stories,
+  .img2 {
+	border-radius: 150px;
+	width: 65px;
+	margin-left: 20px;
+  }
+  .insta--img2 {
+	display: flex;
+	margin-left: 20px;
+	padding: 1px;
+	border: 3px solid rgb(218, 0, 65);
+	border-radius: 150px;
+	width: 65px;
+  }
+  .card__body {
+	background-color: white;
+	height: 425px;
+	width: 350px;
+	margin: auto;
+	margin-top: 30px;
+	border-radius: 7px;
+	border: 1px solid rgb(200, 198, 198);
+	border-bottom: 40px solid gainsboro;
+	
+  }
+  .card__userprofile {
+	padding: 0px;
+	margin: 0px;
+  }
+  .card--profyoda {
+	border-radius: 100px;
+	padding: 40px;
+	margin: -33px;
+	margin-top: -81px;
+  }
+  .prof--name {
+	display: flex;
+	font-size: 12px;
+	font-family: "Montserrat", sans-serif;
+	list-style: none;
+	justify-content: space-between;
+	margin: 16px;
+  }
+  .card__profbabyyoda {
+	width: 348px;
+	height: 300px;
+
+}
+.card__domino{
+	margin: -10px;
+	padding: 0px;
+	margin-left: 40px;
+	
+	
+}
+.card--dominoprof{
+	border-radius: 100px;
+  	padding: 45px;
+	margin:0px;
+	margin-left: -80px;
+	margin-top: -85px;
+}
+.fa-comment{
+	margin: 0;
+	padding: 0;
+	padding-left: 1px;
+}
+.fa-bookmark{
+	margin: 0;
+	padding: 0;
+	margin-left: 256px;
+}
+
