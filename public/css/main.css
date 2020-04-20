@@ -49,6 +49,7 @@ body {
 	border-radius: 150px;
 	width: 65px;
   }
+/* Body do Instagram*/ 
   .card__body {
 	background-color: white;
 	height: 425px;
@@ -64,13 +65,15 @@ body {
 	padding: 0px;
 	margin: 0px;
   }
-  .card--profyoda {
+/* PERFIL YODA*/
+  .card--miniphoto {
 	border-radius: 100px;
 	padding: 40px;
 	margin: -33px;
 	margin-top: -81px;
   }
-  .prof--name {
+  
+  .prof--username{
 	display: flex;
 	font-size: 12px;
 	font-family: "Montserrat", sans-serif;
@@ -78,19 +81,20 @@ body {
 	justify-content: space-between;
 	margin: 16px;
   }
-  .card__profbabyyoda {
+  .card__feedphoto {
 	width: 348px;
 	height: 300px;
+	
 
 }
-.card__domino{
+.card__like{
 	margin: -10px;
 	padding: 0px;
 	margin-left: 40px;
 	
 	
 }
-.card--dominoprof{
+.card--wholiked{
 	border-radius: 100px;
   	padding: 45px;
 	margin:0px;
@@ -107,4 +111,56 @@ body {
 	padding: 0;
 	margin-left: 256px;
 }
+/* Body do Instagram*/ 
+.card__body {
+	background-color: white;
+	height: 425px;
+	width: 350px;
+	margin: auto;
+	margin-top: 30px;
+	border-radius: 7px;
+	border: 1px solid rgb(200, 198, 198);
+	border-bottom: 40px solid gainsboro;
+	
+  }
+  .card__userprofile {
+	padding: 0px;
+	margin: 0px;
+  }
+/* PEFIL GAMORA ZEN */
+.card--miniphoto {
+	border-radius: 100px;
+	padding: 40px;
+	margin: -33px;
+	margin-top: -81px;
+  }
+  
+  .prof--username{
+	display: flex;
+	font-size: 12px;
+	font-family: "Montserrat", sans-serif;
+	list-style: none;
+	justify-content: space-between;
+	margin: 16px;
+  }
+  .card__feedphoto {
+	width: 348px;
+	height: 300px;
 
+}
+.card__like{
+	margin: 25px;
+	margin-top: 10px;
+	padding: 0px;
+	margin-left: 42px;
+	font-size: 11px;
+	
+	
+}
+.card--wholiked{
+	border-radius: 100px;
+  	padding: 45px;
+	margin:0px;
+	margin-left: -80px;
+	margin-top: -80px;
+}
